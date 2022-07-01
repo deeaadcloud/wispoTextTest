@@ -15,8 +15,8 @@ body {
     display: flex;
     flex-direction: column;
     max-height: 1028px;
-    min-width: 1765px;
-    max-width: 75%;
+    max-width: 1765px;
+    width: 100%;
     flex-wrap: wrap;
     align-content: center;
     padding: 160px 260px 0 260px;
@@ -27,7 +27,7 @@ body {
     border: 1px solid #FFA300;
     border-radius: 20px;
     max-width: 715px;
-    height: 512px;
+    max-height: 512px;
     padding: 40px;
     color: #FFA300;
     overflow: hidden;
@@ -42,7 +42,7 @@ body {
     border: 1px solid #000000;
     border-radius: 20px;
     max-width: 715px;
-    height: 296px;
+    max-height: 296px;
     margin-top: 60px;
     padding: 40px;
     color: #000000;
@@ -59,7 +59,7 @@ body {
     border: 1px solid #9A9A9A;
     border-radius: 20px;
     max-width: 527px;
-    height: 980px;
+    max-height: 980px;
     margin-left: 76px;
     padding: 40px;
     color: #9A9A9A;
